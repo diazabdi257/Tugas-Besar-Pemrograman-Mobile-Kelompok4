@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="412dp"
+    android:layout_height="915dp"
+    android:background="@drawable/background"
+    tools:context=".account">
+
+    <ImageView
+        android:id="@+id/arrow_profil"
+        android:layout_width="27dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="657dp"
+        android:src="@drawable/arrowput"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/notif_profil"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <ImageView
+        android:id="@+id/notif_profil"
+        android:layout_width="33dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="660dp"
+        android:src="@drawable/bell4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <ImageView
+        android:id="@+id/avatar_profile"
+        android:layout_width="175dp"
+        android:layout_height="153dp"
+        android:src="@drawable/pngwing"
+        app:layout_constraintBottom_toTopOf="@+id/nama_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <ImageView
+        android:id="@+id/logo_fanet1"
+        android:layout_width="248dp"
+        android:layout_height="196dp"
+        android:src="@drawable/fanet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kotak_bgprofil" />
+
+    <TextView
+        android:id="@+id/fanet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fantasy Arena Net"
+        android:textColor="#C19556"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_fanet1"
+        app:layout_constraintEnd_toEndOf="@+id/logo_fanet1"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/logo_fanet1"
+        app:layout_constraintTop_toTopOf="@+id/logo_fanet1"
+        app:layout_constraintVertical_bias="0.785" />
+
+    <ImageView
+        android:id="@+id/kotak_bgprofil"
+        android:layout_width="375dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="273dp"
+        android:src="@drawable/apae"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_telepon" />
+
+    <ImageView
+        android:id="@+id/avatar_profil"
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="467dp"
+        android:layout_marginEnd="358dp"
+        android:layout_marginBottom="403dp"
+        android:src="@drawable/profil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/logo_notifikasi"
+        android:layout_width="34dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="379dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/bell4"
+        app:layout_constraintBottom_toTopOf="@+id/logo_bahasa"
+        app:layout_constraintEnd_toStartOf="@+id/notifikasi_profil"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/kotak_bgprofil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/ubah_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="479dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="417dp"
+        android:text="Ubah Profil"
+        android:textColor="#FEFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bahasa_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="335dp"
+        android:text="Bahasa"
+        android:textColor="#FEFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kondisi_notif_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="325dp"
+        android:text="Nyala"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <ImageView
+        android:id="@+id/logo_bahasa"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="364dp"
+        android:layout_marginBottom="335dp"
+        android:src="@drawable/bahasa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notifikasi_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="20dp"
+        android:text="Notifikasi"
+        android:textColor="#FEFEFE"
+        app:layout_constraintBottom_toTopOf="@+id/bahasa_profil"
+        app:layout_constraintEnd_toStartOf="@+id/kondisi_notif_profil"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/kondisibahasa_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="335dp"
+        android:text="Bahasa Indonesia"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/etcprofil"
+        android:layout_width="45dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="652dp"
+        android:src="@drawable/titik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <TextView
+        android:id="@+id/nama_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="218dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF7FC"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/email_telepon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
+
+    <TextView
+        android:id="@+id/email_telepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="242dp"
+        android:layout_marginBottom="470dp"
+        android:text="atanganteng@gmail.com | +62 833 029 928"
+        android:textColor="#FFF7FC"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

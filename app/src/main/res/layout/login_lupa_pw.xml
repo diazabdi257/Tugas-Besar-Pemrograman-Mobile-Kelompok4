@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="412dp"
+    android:layout_height="915dp"
     android:background="@drawable/gradient_bg"
     tools:context=".login_lupa_pw">
 
@@ -22,28 +22,15 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/buletan"
+        android:id="@+id/buletan3"
         android:layout_width="142dp"
         android:layout_height="138dp"
-        android:alpha="0.5"
-        android:src="@drawable/bg_bulet"
+        android:src="@drawable/lock_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo_ganti"
-        app:layout_constraintVertical_bias="0.016" />
-
-    <ImageView
-        android:id="@+id/gambar_lock"
-        android:layout_width="114dp"
-        android:layout_height="95dp"
-        android:src="@drawable/lock"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/logo_ganti" />
-
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/lupa_pw_ya"
@@ -65,12 +52,12 @@
         android:layout_height="wrap_content"
         android:text="Masukan email untuk merubah kata sandi :"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/bg_lupa_pw"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="@+id/logo_ganti"
         app:layout_constraintTop_toTopOf="@+id/logo_ganti"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.722" />
 
     <ImageView
         android:id="@+id/bg_lupa_pw"
@@ -80,9 +67,10 @@
         android:src="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buletan"
-        app:layout_constraintVertical_bias="0.776" />
+        app:layout_constraintTop_toBottomOf="@+id/buletan3"
+        app:layout_constraintVertical_bias="0.662" />
 
     <ImageView
         android:id="@+id/lambang_akun_lupa"
@@ -92,21 +80,21 @@
         android:src="@drawable/lambang_email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintHorizontal_bias="0.174"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.768" />
+        app:layout_constraintVertical_bias="0.756" />
 
     <EditText
         android:id="@+id/uname_lupa_pw"
         android:layout_width="219dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="156dp"
+        android:layout_marginBottom="208dp"
         android:hint="Email"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintHorizontal_bias="0.642"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -122,5 +110,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bg_lupa_pw"
         app:layout_constraintVertical_bias="0.161" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="18dp"
+        android:src="@drawable/back_arrow_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back_arrow_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

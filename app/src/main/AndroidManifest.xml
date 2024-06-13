@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -21,6 +22,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".login_choice"></activity>
+        <activity android:name=".main_menu"></activity>
+        <activity android:name=".bahasa">
+        </activity>
+        <activity android:name=".bookmark"></activity>
+        <activity android:name=".checkout_berhasil"></activity>
+        <activity android:name=".checkout_gagal"></activity>
+        <activity android:name=".checkout_konfirmasi"></activity>
+        <activity android:name=".checkout_pembayaran"></activity>
+        <activity android:name=".create_account"></activity>
+        <activity android:name=".editprofile"></activity>
+        <activity android:name=".ganti_pw_dari_login"></activity>
+        <activity android:name=".ganti_pw_done"></activity>
+        <activity android:name=".jett_net"></activity>
+        <activity android:name=".login"></activity>
+        <activity android:name=".account"></activity>
+        <activity android:name=".login_gagal"></activity>
+        <activity android:name=".login_lupa_pw"></activity>
+        <activity android:name=".login_salah_akun"></activity>
+        <activity android:name=".login_salah_pw"></activity>
+        <activity android:name=".notifikasi"></activity>
+        <activity android:name=".phoenix_net"></activity>
+        <activity android:name=".viper_net"></activity>
+        <activity android:name=".checkout_konfirmasi_viper"></activity>
+        <activity android:name=".checkout_konfirmasi_phoenix"></activity>
     </application>
 
 </manifest>

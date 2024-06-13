@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="412dp"
+    android:layout_height="915dp"
+    android:background="@drawable/background"
+    tools:context=".checkout_pembayaran"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/text_review_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="777dp"
+        android:text="Review"
+        android:textColor="#FEFEFE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambar_review_pembayaran"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="791dp"
+        android:src="@drawable/review"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line_review_pembayaran"
+        android:layout_width="58dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="809dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambar_payment_pembayaran"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="791dp"
+        android:src="@drawable/payment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_payment_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="777dp"
+        android:text="Pembayaran"
+        android:textColor="#FEFEFE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_confrim_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="777dp"
+        android:text="Konfirmasi"
+        android:textColor="#FEFEFE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow_pembayaran"
+        android:layout_width="27dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="361dp"
+        android:layout_marginBottom="843dp"
+        android:src="@drawable/arrowput"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line_confirm_pembayaran"
+        android:layout_width="58dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="810dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/judul_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="850dp"
+        android:text="Checkout"
+        android:textColor="#FEFEFE"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambar_confrim_pembayaran"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="791dp"
+        android:src="@drawable/booking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/metode_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="557dp"
+        android:text="Pilih metode pembayaran"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+    <TextView
+        android:id="@+id/text_tunai_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="488dp"
+        android:text="Uang Tunai"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+
+    <ImageView
+        android:id="@+id/kotak_transfer_pembayarn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="356dp"
+        android:src="@drawable/kotak_kecilputih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageView
+        android:id="@+id/kotak_tunai_pembayarn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="472dp"
+        android:src="@drawable/kotak_kecilputih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+
+    <TextView
+        android:id="@+id/text_transfer_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="372dp"
+        android:text="Transfer Bank"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/text_qris_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="430dp"
+        android:text="QRIS"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageView
+        android:id="@+id/kotak_qris_pembayarn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="414dp"
+        android:src="@drawable/kotak_kecilputih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageView
+        android:id="@+id/gambar_qris_pembayaran"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="414dp"
+        android:src="@drawable/qris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageView
+        android:id="@+id/gambar_transfer_pembayaran"
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="360dp"
+        android:src="@drawable/bank_transfer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+
+    <ImageView
+        android:id="@+id/kotak_minimarket_pembayarn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="298dp"
+        android:src="@drawable/kotak_kecilputih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/text_minimarket_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="314dp"
+        android:text="Minimarket"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageView
+        android:id="@+id/gambar_tunai_pembayaran"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="477dp"
+        android:src="@drawable/money"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageView
+        android:id="@+id/gambar_minimarket_pembayaran"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="302dp"
+        android:src="@drawable/minimarket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+
+    <TextView
+        android:id="@+id/text_nama_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="253dp"
+        android:text="Nama Pembayar"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kotak_nama_pembayaran"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="184dp"
+        android:src="@drawable/kotak_pembayar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_nama_pembayaran"
+        android:layout_width="311dp"
+        android:layout_height="41dp"
+        android:hint="Masukkan nama pembayarnya"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/kotak_nama_pembayaran"
+        app:layout_constraintEnd_toEndOf="@+id/kotak_nama_pembayaran"
+        app:layout_constraintStart_toStartOf="@+id/kotak_nama_pembayaran"
+        app:layout_constraintTop_toTopOf="@+id/kotak_nama_pembayaran" />
+
+    <ImageView
+        android:id="@+id/kotak_checkout_pembayaran"
+        android:layout_width="409dp"
+        android:layout_height="343dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/kotak_putihnew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_metode_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="91dp"
+        android:text="Metode Pembayaran yang dipilih:"
+        android:textColor="#1E1F2E"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/metode_checkout_pembayaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kotak_checkout_pembayaran"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <TextView
+        android:id="@+id/metode_checkout_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="753dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="16dp"
+
+        android:textColor="#1E1F2E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_checkout_pembayaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_checkout_pembayaran"
+        android:layout_width="263dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="791dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#102543"
+        android:text="Confirm"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="403dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="309dp"
+        app:layout_editor_absoluteY="300dp">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="Uang Tunai"
+            android:textSize="1px"
+            tools:layout_editor_absoluteX="309dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layoutDirection="rtl"
+            android:text="QRIS"
+            android:textSize="1px"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="Transfer Bank"
+            android:textSize="1px"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layoutDirection="rtl"
+            android:text="Minimaret"
+            android:textSize="1px"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

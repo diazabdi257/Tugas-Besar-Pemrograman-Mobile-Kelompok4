@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="412dp"
+    android:layout_height="915dp"
     android:background="@drawable/gradient_bg"
     tools:context=".create_account">
 
@@ -32,7 +32,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo4" />
-
     <TextView
         android:id="@+id/buat_akun_anda"
         android:layout_width="wrap_content"
@@ -54,9 +53,10 @@
         android:src="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buat_akun_anda"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.17" />
 
     <EditText
         android:id="@+id/uname2"
@@ -77,12 +77,11 @@
         android:layout_height="23dp"
         android:alpha="0.5"
         android:src="@drawable/lambangakun"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintBottom_toBottomOf="@id/bg3"
+        app:layout_constraintEnd_toStartOf="@+id/uname2"
+        app:layout_constraintStart_toStartOf="@id/bg3"
+        app:layout_constraintTop_toTopOf="@id/bg3"
+        app:layout_constraintVertical_bias="0.5" />
 
     <ImageView
         android:id="@+id/bg4"
@@ -114,48 +113,25 @@
         android:layout_height="23dp"
         android:alpha="0.5"
         android:src="@drawable/lambang_email"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/bg4"
+        app:layout_constraintEnd_toStartOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@id/bg4"
+        app:layout_constraintTop_toTopOf="@+id/email"
+        app:layout_constraintVertical_bias="0.5" />
 
-    <ImageView
-        android:id="@+id/bg5"
-        android:layout_width="303dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="292dp"
-        android:src="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <Button
+        android:id="@+id/buttonregister2"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#102543"
+        android:text="Daftar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/bg5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bg4"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
-        android:id="@+id/lambang_pw"
-        android:layout_width="29dp"
-        android:layout_height="23dp"
-        android:layout_marginBottom="300dp"
-        android:alpha="0.5"
-        android:src="@drawable/lambangpw"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/pw2"
-        android:layout_width="219dp"
-        android:layout_height="38dp"
-        android:hint="Kata Sandi"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bg5"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <ImageView
         android:id="@+id/bg6"
@@ -165,51 +141,52 @@
         android:src="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bg5"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.118"
+        android:visibility="invisible"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/bg5"
+        android:layout_width="303dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="292dp"
+        android:src="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg4"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <EditText
+        android:id="@+id/pw2"
+        android:layout_width="219dp"
+        android:layout_height="38dp"
+        android:hint="Kata Sandi"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@id/bg5"
+        app:layout_constraintStart_toStartOf="@id/bg5"
+        app:layout_constraintEnd_toEndOf="@id/bg5"
+        app:layout_constraintBottom_toBottomOf="@id/bg5"
+        app:layout_constraintVertical_bias="0.5" /> />
 
     <ImageView
         android:id="@+id/lambang_pw"
         android:layout_width="29dp"
         android:layout_height="23dp"
-        android:layout_marginBottom="244dp"
         android:alpha="0.5"
         android:src="@drawable/lambangpw"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonregister2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/pw3"
-        android:layout_width="219dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="236dp"
-        android:hint="Konfirmasi Kata Sandi"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bg6"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/btn_masuk"
-        android:layout_width="247dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="92dp"
-        android:backgroundTint="#102543"
-        android:text="MASUK"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bg6"
-        app:layout_constraintVertical_bias="0.187"
-        app:layout_constraintWidth_percent="0.6" />
+        app:layout_constraintTop_toTopOf="@+id/bg5" />
 
     <TextView
         android:id="@+id/atau_masuk_dengan2"
@@ -223,7 +200,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_masuk"
+        app:layout_constraintTop_toBottomOf="@+id/buttonregister2"
         app:layout_constraintVertical_bias="0.666" />
 
     <ImageView
@@ -291,6 +268,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.824" />
+
+    <ImageView
+        android:id="@+id/arrowregister"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back_arrow_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

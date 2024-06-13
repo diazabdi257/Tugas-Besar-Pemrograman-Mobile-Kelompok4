@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="thumb">#89B9FF</color>
+    <color name="track">#54719A</color>
+    <color name="radio_active">#202020</color>
 </resources>

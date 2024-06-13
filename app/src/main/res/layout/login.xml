@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="412dp"
+    android:layout_height="915dp"
     android:background="@drawable/gradient_bg"
     tools:context=".login_choice">
 
@@ -47,77 +47,35 @@
         app:layout_constraintTop_toBottomOf="@+id/selamat_datang"
         app:layout_constraintVertical_bias="0.025" />
 
-    <ImageView
-        android:id="@+id/bg1"
-        android:layout_width="303dp"
-        android:layout_height="42dp"
-        android:src="@drawable/edit_text_bg"
+    <Button
+        android:id="@+id/btn_masuklogin"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="#102543"
+        android:text="MASUK"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/masuk_ke_akun"
-        app:layout_constraintVertical_bias="0.157" />
+        app:layout_constraintWidth_percent="0.6" />
 
-    <ImageView
-        android:id="@+id/lambang_akun"
-        android:layout_width="29dp"
-        android:layout_height="23dp"
-        android:alpha="0.5"
-        android:src="@drawable/lambangakun"
+    <TextView
+        android:id="@+id/lupa_sandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="gantipw"
+        android:text="Lupa Sandi?"
+        android:textColor="@color/white"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
-
-    <EditText
-        android:id="@+id/uname"
-        android:layout_width="219dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="272dp"
-        android:hint="Username"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/bg2"
-        android:layout_width="303dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="212dp"
-        android:src="@drawable/edit_text_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bg1"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
-        android:id="@+id/lambang_pw"
-        android:layout_width="29dp"
-        android:layout_height="23dp"
-        android:layout_marginBottom="224dp"
-        android:alpha="0.5"
-        android:src="@drawable/lambangpw"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/pw"
-        android:layout_width="219dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="212dp"
-        android:hint="Kata Sandi"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/pw"
+        app:layout_constraintVertical_bias="0.026" />
 
     <CheckBox
         android:id="@+id/ingat_aku"
@@ -131,50 +89,86 @@
         app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pw"
-        app:layout_constraintVertical_bias="0.035" />
+        app:layout_constraintVertical_bias="0.026" />
 
-    <TextView
-        android:id="@+id/lupa_sandi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:onClick="gantipw"
-        android:text="Lupa Sandi?"
-        android:textColor="@color/white"
-        android:textSize="12sp"
+    <ImageView
+        android:id="@+id/bg1"
+        android:layout_width="303dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="272dp"
+        android:src="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pw"
-        app:layout_constraintVertical_bias="0.035" />
+        app:layout_constraintTop_toBottomOf="@+id/logo3"
+        app:layout_constraintVertical_bias="0.693" />
 
-    <Button
-        android:id="@+id/btn_masuk"
-        android:layout_width="247dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="92dp"
-        android:text="MASUK"
-        android:textSize="20sp"
-        android:backgroundTint="#102543"
+    <ImageView
+        android:id="@+id/lambang_akun"
+        android:layout_width="29dp"
+        android:layout_height="23dp"
+        android:alpha="0.5"
+        android:src="@drawable/lambang_email"
+        app:layout_constraintBottom_toBottomOf="@+id/bg1"
+        app:layout_constraintEnd_toStartOf="@+id/email2"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="@+id/bg1"
+        app:layout_constraintTop_toTopOf="@+id/bg1"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="219dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="268dp"
+        android:hint="Email"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintWidth_percent="0.6" />
+        app:layout_constraintTop_toTopOf="@+id/bg1"
+        app:layout_constraintVertical_bias="0.05" />
 
-    <TextView
-        android:id="@+id/punya_akun_ga"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Belum punya akun? "
-        android:textColor="@color/white"
-        android:textSize="11sp"
+
+    <ImageView
+        android:id="@+id/bg2"
+        android:layout_width="303dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="212dp"
+        android:src="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_masuk"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/bg1"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="219dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="284dp"
+        android:hint="Kata Sandi"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/lambang_pw"
+        android:layout_width="29dp"
+        android:layout_height="23dp"
+        android:alpha="0.5"
+        android:src="@drawable/lambangpw"
+        app:layout_constraintBottom_toBottomOf="@+id/bg2"
+        app:layout_constraintEnd_toStartOf="@+id/pw"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="@+id/bg2"
+        app:layout_constraintTop_toTopOf="@+id/pw" />
 
     <TextView
         android:id="@+id/buat_akun_disini"
@@ -189,8 +183,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/punya_akun_ga"
-        app:layout_constraintTop_toBottomOf="@+id/btn_masuk"
+        app:layout_constraintTop_toBottomOf="@+id/btn_masuklogin"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/punya_akun_ga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun? "
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_masuklogin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back_arrow_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

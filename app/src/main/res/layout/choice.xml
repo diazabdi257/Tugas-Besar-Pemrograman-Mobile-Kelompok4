@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="412dp"
+    android:layout_height="915dp"
     android:background="@drawable/gradient_bg"
     tools:context=".login_choice"
     tools:layout_editor_absoluteX="0dp"
@@ -61,30 +61,31 @@
         app:layout_constraintTop_toBottomOf="@id/atau"
         app:layout_constraintWidth_percent="0.6" />
 
-    <TextView
-        android:id="@+id/atau_masuk_dengan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:text="Atau masuk dengan"
-        android:textColor="@color/white"
-        android:textSize="11sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_signin" />
-
     <ImageView
         android:id="@+id/login_google"
         android:layout_width="39dp"
         android:layout_height="39dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:clickable="true"
         android:focusable="true"
         android:src="@drawable/logo_google"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/atau_masuk_dengan" />
+
+    <TextView
+        android:id="@+id/atau_masuk_dengan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atau masuk dengan"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signin"
+        app:layout_constraintVertical_bias="0.384" />
 
     <View
         android:id="@+id/line_separator"
@@ -108,6 +109,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.779" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

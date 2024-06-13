@@ -1,4 +1,11 @@
 package com.example.tugasbesarpemob_kelompok4_tk4502
 
-class ganti_pw_done {
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class ganti_pw_done : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.ganti_pw_done)
+    }
 }

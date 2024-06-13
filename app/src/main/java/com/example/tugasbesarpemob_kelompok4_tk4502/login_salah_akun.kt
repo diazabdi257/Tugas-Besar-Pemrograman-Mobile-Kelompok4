@@ -1,4 +1,11 @@
 package com.example.tugasbesarpemob_kelompok4_tk4502
 
-class login_salah_akun {
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class login_salah_akun : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.login_salah_akun)
+    }
 }
